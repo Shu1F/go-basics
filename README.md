@@ -1,4 +1,5 @@
 ```bash
+
 # for mac user
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bash_profile
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc
@@ -14,6 +15,7 @@ go run main.go
 or
 go run.
 ```
+
 ```bash
 #run with race data checker
 go run -race .
@@ -25,6 +27,7 @@ go tool cover -html=coverage.out
 #launch tracer view
 go tool trace trace.out
 ```
+
 ```bash
 # VS Code settings.json
  "[go]": {
